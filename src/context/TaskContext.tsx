@@ -1,6 +1,6 @@
 // src/context/TaskContext.tsx
-import React, { createContext, useContext, useState } from "react";
-import type { Task, Category, Priority } from "../types/Types";
+import React, { createContext, useState } from "react";
+import type { Task, Priority } from "../types/Types";
 
 interface TaskContextType {
   tasks: Task[];

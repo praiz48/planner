@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useTasks } from "../hooks/UseTasks";
 import type { Task } from "../types/Types";
 interface TaskitemProps {
